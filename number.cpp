@@ -222,8 +222,8 @@ value = minVal;
 }
 preview = false;
 mouseState = false;
-}
 ofNotifyEvent(onMousePressed, value, this); 
+}
 }
 
 void number::keyReleased(ofKeyEventArgs & args){
